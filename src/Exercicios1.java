@@ -6,8 +6,8 @@ public class Exercicios1 {
 
        int A, B, soma;
 
-       A = 10 ;
-       B = 30 ;
+       A = -30 ;
+       B =  10 ;
 
        soma = A+B;
 
