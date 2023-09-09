@@ -6,15 +6,17 @@ public class Exercicio6 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double A, B, C, area;
+        double A, B, C, area, raio, pi;
         A = sc.nextDouble();
         B = sc.nextDouble();
         C = sc.nextDouble();
+        raio = C;
+        pi = 3.14159;
      
-        area = A * C /2;     
-                              
+        area = pi * Math.pow(raio,2);       
+                           
 
-        System.out.printf("Area = %.2f", area);
+        System.out.printf("Area do circulo = %.2f", area);
         sc.close(); 
     }
 }
