@@ -11,11 +11,11 @@ public class Exercicio6 {
         B = sc.nextDouble();
         C = sc.nextDouble();
              
-        area = (A + B) * C /2.0;
+        area = B * B;
 
                            
 
-        System.out.printf("Area do circulo = %.2f", area);
+        System.out.printf("Area do quadrado = %.2f", area);
         sc.close(); 
     }
 }
